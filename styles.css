@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202020;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#container {
+    aspect-ratio: 16 / 9;
+    width: 40%;
+    background-color: #050404;
+    border-bottom: whitesmoke;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.fluid {
+    aspect-ratio: 1/1;
+    width: 300px;
+    background-color: #41a4b0;
+    border-radius: 50%;
+    position: absolute;
+    top: 100%;
+    animation: FadeIn 1.5s ease-in-out infinite;
+}
+
+@keyframes FadeIn {
+    from, to{
+        translate: -50% 0;
+    }
+
+    50% {
+        translate: -50% -30%;
+    }
+}
