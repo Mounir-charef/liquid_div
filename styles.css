@@ -13,7 +13,7 @@ body {
 #container {
     aspect-ratio: 16 / 9;
     width: 40%;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #050404;
     border-bottom: 2px solid rgba(117, 213, 255, 0.35);
     overflow: hidden;
